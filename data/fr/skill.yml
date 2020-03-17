@@ -1,0 +1,84 @@
+################################# Skill ##################################
+skill:
+  enable : true
+  title : Mes compétences
+  subtitle : We’ve skilled in wide range of web and Other digital market tools.
+  content : Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis magni explicabo cum aperiam recusandae sunt accusamus totam. Quidem quos fugiat sapiente numquam accusamus quas hic, itaque in libero reiciendis tempora!
+  image : images/about/tool-1957451.jpg
+  skill_item :
+    # skill item loop
+
+    - name: Administration Linux
+      details:
+
+        - name: Ubuntu
+          percent: 70%
+        - name: Debian
+          percent: 65%
+        - name: RHEL/CentOS
+          percent: 60%
+
+    - name: Conteneurisation
+      details:
+
+        - name: Docker
+          percent: 70%
+        - name: LXC/LXD
+          percent: 50%
+        - name: Docker-Swarm
+          percent: 60%
+        - name: Kubernetes
+          percent: 50%
+        - name: HelmCharts
+          percent: 50%
+
+    - name: Automatisation
+      details:
+
+        - name: Ansible
+          percent: 65%
+        - name: Terraform
+          percent: 40%
+        - name: Jenkins
+          percent: 60%
+        - name: Gitlab-CI
+          percent: 60%
+
+    - name: Cloud Provider
+      details:
+
+        - name: Openstack
+          percent: 40%
+        - name: Microsoft Azure
+          percent: 30%
+        - name: Amazon Web Service
+          percent: 30%
+
+    - name: Monitoring
+      details:
+
+        - name: Grafana
+          percent: 20%
+        - name: Kibana
+          percent: 30%
+        - name: Prometheus
+          percent: 30%
+        - name: Shinken
+          percent: 40%
+        - name: Sensu
+          percent: 30%  
+
+    # skill item loop
+#    - name :  Analysis
+#      percent : 70%
+
+    # skill item loop
+#    - name :  Design
+#      percent : 80%
+
+#    - name :  IOS Development
+#      percent : 95%
+
+    # skill item loop
+#    - name :  Andriod Development
+#      percent : 75%

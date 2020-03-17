@@ -1,0 +1,22 @@
+name: CI
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    
+    - uses: actions/checkout@v2
+    
+    - name: Install Hugo 
+      run: sudo snap install hugo --channel=extended
+
+    - name: Install pandoc, xelatex
+      run: sudo apt install pandoc texlive-xetex
+
+    - name: Build offline epubs, pdf for articles and deploy
+      run: ./deploy.sh
+

@@ -1,0 +1,34 @@
+body {
+  font-family: 'ubuntu';
+}
+
+/* ########### Banner ########## */
+
+.banner-citation p {
+  font-family: 'ubuntu';
+}
+
+.banner-citation-author p {
+  font-family: 'ubuntu';
+  font-weight: bold;
+  padding-top: 20px;
+}
+/* ########### About ########### */
+
+.about .block .icon-box {
+  padding: 0;
+}
+
+.catalyseur-devops img {
+    margin: 5px 0 0 -10px;
+}
+
+.facilitateur-communaute img {
+    margin: -15px;
+}
+
+/* ########## Blog ########## */
+
+.post-single-content img {
+  width: 100%;
+}

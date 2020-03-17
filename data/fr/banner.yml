@@ -1,0 +1,19 @@
+############################### Banner ################################
+banner:
+  enable : true
+  bg_image_webp : "images/backgrounds/hero-area.webp"
+  bg_image : "/images/backgrounds/forest-931706.jpg"
+  icon : "" # themify icon pack : https://themify.me/themify-icons
+  title : "Vincent 'Winael' JOBARD"
+  citation : |
+    « Pour comprendre le coeur et l'esprit d'une personne, ne regarde pas ce qu'il a déjà accompli, mais ce à quoi il aspire. »
+  citation_author: Khalil Gibran
+  buttons:
+  - id: blog
+    enable: true
+    label : "Blog"
+    link : "#blog"
+  - id: about
+    enable : true
+    label : "▼ A propos de moi ▼"
+    link : "#about"

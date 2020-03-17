@@ -1,0 +1,22 @@
+############################# About ###################################
+about:
+  enable : true
+  title : A propos de moi
+  about_item :
+  - id: agnostic-agile
+    icon : "/images/about/LogoAgnosticAgile.png 75px" # themify icon pack : https://themify.me/themify-icons
+    title : Agile Agnostique
+    content : Parce que l'Agilité ce N'EST PAS appliquer des frameworks 'by the book', parce que 'One Framework don't fit all', parce que se mettre au service de son client nécessite de comprendre SON besoin, SON contexte pour l'aider à faire émerger SA solution, dans le respect de la philosophie Agile, je crois en une Agilité Agnostique.
+    button: "/agnostic-agile"
+
+  - id: catalyseur-devops
+    icon : "/images/about/LogoDevOps.svg 125px" # themify icon pack : https://themify.me/themify-icons
+    title : Catalyseur DevOps
+    content : Car DevOps n'est pas à propos de l'automatisation, mais à propos de la fluidification des flux de travaux des organisations.
+    button: "/devops-catalyst"
+
+  - id: facilitateur-communaute
+    icon : "/images/about/LogoCommunity.svg 125px" # themify icon pack : https://themify.me/themify-icons
+    title : Facilitateur de Communautés
+    content : Les ensembles des groupes socio-productifs et de leurs parties-prenantes forment des communautés de personnes. Pour atteindre leur efficience, elles ont besoin de facilitateurs pour les faire mûrirs
+    button: "/community-facilitator"
