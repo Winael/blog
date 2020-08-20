@@ -57,7 +57,10 @@ cd public
 
 # Add changes to git
 
-git init && git add .
+git init \
+  && git config --global user.email "vinzjobard@gmail.com" \
+  && git config --global user.name "Winael"
+  && git add .
 
 # Commit changes
 
