@@ -1,5 +1,4 @@
 #!/bin/sh
-export GITHUB_TOKEN = "a1e6b91ac731b422c68d4f84454fbe6efcac2d97"
 
 # If a command fails then the deply stops
 
