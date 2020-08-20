@@ -2,7 +2,7 @@
 title: "Sortir Des Sentiers Battus"
 date: 2020-02-21T23:55:14+01:00
 author: Winael
-image: "/images//blog/organic-tao.jpeg"
+image: "/images/blog/organic-tao.jpeg"
 description: "Discover the World !"
 tags: ["Management", "Innovation", "Inspiration"]
 draft: true

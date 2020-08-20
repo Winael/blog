@@ -28,10 +28,14 @@ rm -Rf tmp
 
 # Update Git submodules
 
-printf "\033[0;32mUpdate submodules project...\033[0m\n"
+printf "\033[0;32mReinitialize Theme...\033[0m\n"
 
+if [ -d themes ]; then
+  rm -Rf themes
+fi
 
-git submodule update --remote themes/meghna-hugo
+mkdir themes
+cd themes && git clone https://github.com/themefisher/meghna-hugo.git && cd ..
 
 # Deploy updates
 
