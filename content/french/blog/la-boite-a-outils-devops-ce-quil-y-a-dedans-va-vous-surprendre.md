@@ -3,7 +3,7 @@ title: "La boite à outils DevOps, ce qu'il y a dedans va vous surprendre..."
 file: "content/posts/la-boite-a-outils-devops-ce-quil-y-a-dedans-va-vous-surprendre.md"
 author: "Winael"
 description: "Les outils ne font pas le DevOps"
-image: "/images//blog/outils-devops.jpeg"
+image: "/images/blog/outils-devops.jpeg"
 tags: ["DevOps", "Agile", "Agilité", "Scrum"]
 keywords: DevOps, Agile, Agilité, Scrum
 date: 2020-02-24T15:18:42+01:00

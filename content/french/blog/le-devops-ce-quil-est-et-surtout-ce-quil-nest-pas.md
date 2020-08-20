@@ -3,7 +3,7 @@ title: "Le Devops : Ce qu'il est... Et surtout ce qu'il n'est pas."
 author: Winael
 description: "A la découverte de DevOps."
 date: 2020-02-22T15:42:52Z
-image: "/images//blog/devops.jpeg"
+image: "/images/blog/devops.jpeg"
 tags: ["DevOps", "Agile", "Agilité"]
 draft: true
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Bien Etre en Entreprise,IA, Automatisation... Et Rapports Humains"
 author: Winael
-image: "/images//blog/get-human.jpeg"
+image: "/images/blog/get-human.jpeg"
 description: "Get Human !"
 tags: ["Société","Management","RH","QVT"]
 date: 2020-02-21T11:53:33+01:00

@@ -28,10 +28,14 @@ rm -Rf tmp
 
 # Update Git submodules
 
-printf "\033[0;32mUpdate submodules project...\033[0m\n"
+printf "\033[0;32mReinitialize Theme...\033[0m\n"
 
+if [ -d themes ]; then
+  rm -Rf themes
+fi
 
-git submodule update --remote themes/meghna-hugo
+mkdir themes
+cd themes && git clone https://github.com/themefisher/meghna-hugo.git && cd ..
 
 # Deploy updates
 
@@ -53,7 +57,10 @@ cd public
 
 # Add changes to git
 
-git init && git add .
+git init \
+  && git config --global user.email "vinzjobard@gmail.com" \
+  && git config --global user.name "winael" \
+  && git add .
 
 # Commit changes
 
@@ -63,10 +70,14 @@ if [ -n "$*" ]; then
 	msg="$*"
 fi
 
+printf "\033[0;32m${msg}...\033[0m\n"
+
 git commit -m "$msg"
 
 # Push source and build repos
 
-git remote add origin https://github.com/Winael/winael.github.io.git
+printf "\033[0;32mSet Origin to https://github.com/winael/winael.github.io...\033[0m\n"
+git remote add origin https://github.com/winael/winael.github.io.git
 
+printf "\033[0;32mPush Origin to master on https://github.com/winael/winael.github.io...\033[0m\n"
 git push origin master -f
