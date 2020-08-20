@@ -59,7 +59,7 @@ cd public
 
 git init \
   && git config --global user.email "vinzjobard@gmail.com" \
-  && git config --global user.name "Winael" \
+  && git config --global user.name "winael" \
   && git add .
 
 # Commit changes
@@ -74,6 +74,6 @@ git commit -m "$msg"
 
 # Push source and build repos
 
-git remote add origin https://github.com/Winael/winael.github.io.git
+git remote add origin https://github.com/winael/winael.github.io.git
 
 git push origin master -f
