@@ -70,10 +70,15 @@ if [ -n "$*" ]; then
 	msg="$*"
 fi
 
+printf "\033[0;32m${msg}...\033[0m\n"
+
 git commit -m "$msg"
 
 # Push source and build repos
 
+printf "\033[0;32mSet Origin to https://github.com/winael/winael.github.io...\033[0m\n"
 git remote add origin https://github.com/winael/winael.github.io.git
+git remote set-url origin git@github.com:winael/winael.github.io.git
 
+printf "\033[0;32mPush Origin to master on https://github.com/winael/winael.github.io...\033[0m\n"
 git push origin master -f
